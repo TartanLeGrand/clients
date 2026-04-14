@@ -5,6 +5,6 @@ export const COLLAPSED_GROUPINGS = UserKeyDefinition.array<string>(
   "collapsedGroupings",
   {
     deserializer: (obj) => obj,
-    clearOn: ["logout", "lock"],
+    clearOn: ["logout"],
   },
 );
